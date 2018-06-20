@@ -30,7 +30,7 @@ export class OlderCoaster extends React.Component {
 export class InFrontOfYou extends React.Component {
   render(){
     return (
-      <div> 
+      <div>
       <p>You shouldnt look too far.</p>
       <p></p>
       </div>
