@@ -10,7 +10,7 @@ const BUTCHER_PRODUCTS = [
 
 // Define these exported classes
 export class OlderCoaster extends React.Component {
-  
+
   //this function should return the JSX we want the DOM to render
   render() {
      return (
@@ -24,11 +24,18 @@ export class OlderCoaster extends React.Component {
       </div>
     )
    }
-  
+
 }
 
 export class InFrontOfYou extends React.Component {
-  // your code here
+  render(){
+    return (
+      <div> 
+      <p>You shouldnt look too far.</p>
+      <p></p>
+      </div>
+    )
+  }
 }
 
 export class ButcherShop extends React.Component {
